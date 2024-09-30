@@ -1,0 +1,56 @@
+           _                 _    
+  __ _  __| |_ __ __ _ _ __ | |_  
+ / _` |/ _` | '__/ _` | '_ \| __| 
+| (_| | (_| | | | (_| | | | | |_  
+ \__, |\__,_|_|  \__,_|_| |_|\__| 
+    |_|                           
+
+Version: 1.11.4, build: d8b6e4a0
+Access web UI at http://localhost:6333/dashboard
+
+2024-09-30T11:24:16.302329Z  INFO storage::content_manager::consensus::persistent: Loading raft state from ./storage/raft_state.json    
+2024-09-30T11:24:16.302423Z DEBUG storage::content_manager::consensus::persistent: State: Persistent { state: RaftState { hard_state: HardState { term: 0, vote: 0, commit: 0 }, conf_state: ConfState { voters: [2295217435847556], learners: [], voters_outgoing: [], learners_next: [], auto_leave: false } }, latest_snapshot_meta: SnapshotMetadataSer { term: 0, index: 0 }, apply_progress_queue: EntryApplyProgressQueue(None), peer_address_by_id: RwLock { data: {} }, peer_metadata_by_id: RwLock { data: {} }, cluster_metadata: {}, this_peer_id: 2295217435847556, path: "./storage/raft_state.json", dirty: false }    
+2024-09-30T11:24:16.323971Z  INFO storage::content_manager::toc: Loading collection: default    
+2024-09-30T11:24:16.393997Z  INFO collection::shards::local_shard: Recovering collection default: 0/1 (0%)    
+2024-09-30T11:24:16.409477Z  INFO collection::shards::local_shard: Recovered collection default: 1/1 (100%)    
+2024-09-30T11:24:16.410862Z DEBUG qdrant: Loaded collection: default    
+2024-09-30T11:24:16.410875Z  INFO qdrant: Distributed mode disabled    
+2024-09-30T11:24:16.410886Z  INFO qdrant: Telemetry reporting disabled    
+2024-09-30T11:24:16.411199Z DEBUG qdrant: Waiting for thread web to finish    
+2024-09-30T11:24:16.411504Z  WARN qdrant::actix::web_ui: Static content folder for Web UI './static' does not exist    
+2024-09-30T11:24:16.411742Z  INFO qdrant::actix: TLS disabled for REST API    
+2024-09-30T11:24:16.411773Z  INFO qdrant::actix: Qdrant HTTP listening on 6333    
+2024-09-30T11:24:16.411781Z  INFO actix_server::builder: Starting 7 workers
+2024-09-30T11:24:16.411785Z  INFO actix_server::server: Actix runtime found; starting in Actix runtime
+2024-09-30T11:24:16.416415Z  INFO qdrant::tonic: Qdrant gRPC listening on 6334    
+2024-09-30T11:24:16.416451Z  INFO qdrant::tonic: TLS disabled for gRPC API    
+2024-09-30T11:24:30.536256Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001089    
+2024-09-30T11:24:42.137021Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 11997 "-" "-" 0.002684    
+2024-09-30T11:28:52.484393Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001003    
+2024-09-30T11:29:50.417084Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001302    
+2024-09-30T11:30:47.785458Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001103    
+2024-09-30T11:31:45.999214Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000976    
+2024-09-30T11:32:43.572315Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001592    
+2024-09-30T11:33:40.571822Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000740    
+2024-09-30T11:34:37.895193Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.003288    
+2024-09-30T11:35:46.550806Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001031    
+2024-09-30T11:36:42.806602Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000892    
+2024-09-30T11:37:42.897425Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 44 "-" "-" 0.000676    
+2024-09-30T11:38:41.884845Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000718    
+2024-09-30T11:39:43.331625Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 44 "-" "-" 0.000862    
+2024-09-30T11:40:43.856408Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001030    
+2024-09-30T11:41:40.923686Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000701    
+2024-09-30T11:42:41.602182Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000764    
+2024-09-30T11:43:39.747677Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000885    
+2024-09-30T11:44:37.744216Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000940    
+2024-09-30T11:45:42.196564Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000657    
+2024-09-30T11:46:38.987608Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001009    
+2024-09-30T11:47:39.586771Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000797    
+2024-09-30T11:48:37.579950Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000859    
+2024-09-30T11:49:34.375252Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000718    
+2024-09-30T11:50:31.665252Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000715    
+2024-09-30T11:51:31.497281Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001086    
+2024-09-30T11:52:33.128082Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 45 "-" "-" 0.000999    
+2024-09-30T11:53:32.089763Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.001025    
+2024-09-30T11:54:28.526651Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000874    
+2024-09-30T11:55:25.306782Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 200 46 "-" "-" 0.000941    

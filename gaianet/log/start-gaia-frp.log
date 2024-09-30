@@ -1,0 +1,8 @@
+[1;34m2024-09-30 19:24:36.792 [I] [sub/root.go:142] start frpc service for config file [/root/gaianet/gaia-frp/frpc.toml]
+[0m[1;34m2024-09-30 19:24:36.792 [I] [client/service.go:294] try to connect to server...
+[0m[1;34m2024-09-30 19:24:37.679 [I] [client/service.go:286] [8b10630f480fdbd1] login to server success, get run id [8b10630f480fdbd1]
+[0m[1;34m2024-09-30 19:24:37.679 [I] [proxy/proxy_manager.go:173] [8b10630f480fdbd1] proxy added: [0xe2ebcd7a532f71a7e8a1d19c29927706503e4d31.us.gaianet.network]
+[0m[1;34m2024-09-30 19:24:37.958 [I] [client/control.go:170] [8b10630f480fdbd1] [0xe2ebcd7a532f71a7e8a1d19c29927706503e4d31.us.gaianet.network] start proxy success
+[0m[1;31m2024-09-30 19:25:08.019 [E] [proxy/proxy.go:204] [8b10630f480fdbd1] [0xe2ebcd7a532f71a7e8a1d19c29927706503e4d31.us.gaianet.network] connect to local service [127.0.0.1:8080] error: dial tcp 127.0.0.1:8080: connect: connection refused
+[0m[1;31m2024-09-30 19:53:04.497 [E] [proxy/proxy.go:204] [8b10630f480fdbd1] [0xe2ebcd7a532f71a7e8a1d19c29927706503e4d31.us.gaianet.network] connect to local service [127.0.0.1:8080] error: dial tcp 127.0.0.1:8080: connect: connection refused
+[0m

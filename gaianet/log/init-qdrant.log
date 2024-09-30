@@ -1,0 +1,28 @@
+           _                 _    
+  __ _  __| |_ __ __ _ _ __ | |_  
+ / _` |/ _` | '__/ _` | '_ \| __| 
+| (_| | (_| | | | (_| | | | | |_  
+ \__, |\__,_|_|  \__,_|_| |_|\__| 
+    |_|                           
+
+Version: 1.11.4, build: d8b6e4a0
+Access web UI at http://localhost:6333/dashboard
+
+2024-09-30T10:23:18.231329Z  INFO storage::content_manager::consensus::persistent: Loading raft state from ./storage/raft_state.json    
+2024-09-30T10:23:18.231418Z DEBUG storage::content_manager::consensus::persistent: State: Persistent { state: RaftState { hard_state: HardState { term: 0, vote: 0, commit: 0 }, conf_state: ConfState { voters: [2295217435847556], learners: [], voters_outgoing: [], learners_next: [], auto_leave: false } }, latest_snapshot_meta: SnapshotMetadataSer { term: 0, index: 0 }, apply_progress_queue: EntryApplyProgressQueue(None), peer_address_by_id: RwLock { data: {} }, peer_metadata_by_id: RwLock { data: {} }, cluster_metadata: {}, this_peer_id: 2295217435847556, path: "./storage/raft_state.json", dirty: false }    
+2024-09-30T10:23:18.244066Z  INFO qdrant: Distributed mode disabled    
+2024-09-30T10:23:18.244097Z  INFO qdrant: Telemetry reporting disabled    
+2024-09-30T10:23:18.244460Z DEBUG qdrant: Waiting for thread web to finish    
+2024-09-30T10:23:18.246664Z  WARN qdrant::actix::web_ui: Static content folder for Web UI './static' does not exist    
+2024-09-30T10:23:18.246873Z  INFO qdrant::actix: TLS disabled for REST API    
+2024-09-30T10:23:18.246898Z  INFO qdrant::actix: Qdrant HTTP listening on 6333    
+2024-09-30T10:23:18.246908Z  INFO actix_server::builder: Starting 7 workers
+2024-09-30T10:23:18.246929Z  INFO actix_server::server: Actix runtime found; starting in Actix runtime
+2024-09-30T10:23:18.249602Z  INFO qdrant::tonic: Qdrant gRPC listening on 6334    
+2024-09-30T10:23:18.249631Z  INFO qdrant::tonic: TLS disabled for gRPC API    
+2024-09-30T10:37:11.700384Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 404 85 "-" "-" 0.009964    
+2024-09-30T10:39:01.250343Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 404 85 "-" "-" 0.000354    
+2024-09-30T10:40:06.209794Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 404 85 "-" "-" 0.000338    
+2024-09-30T10:41:04.068649Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 404 85 "-" "-" 0.000321    
+2024-09-30T10:42:04.584681Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 404 85 "-" "-" 0.000363    
+2024-09-30T10:42:59.306670Z  INFO actix_web::middleware::logger: 127.0.0.1 "POST /collections/default/points/search HTTP/1.1" 404 85 "-" "-" 0.000293    

@@ -1,0 +1,17 @@
+From its inception to becoming the world's second-largest [cryptocurrency](https://www.notion.so/Cryptocurrency-f9fd9dbec13e437d9891a001972be97e?pvs=21) platform, Ethereum has undergone numerous key upgrades and improvements. Each upgrade and significant event has provided Ethereum with a more robust, secure, and scalable foundation, also laying the groundwork for its wide range of applications and ecosystem development.
+
+- **2013**: The concept of Ethereum was proposed by Vitalik Buterin, aiming to create a more versatile blockchain platform that supports smart contracts and decentralized applications (DApps).
+- **2014**:
+    - Raised funds through an [Initial Coin Offering (ICO)](https://www.notion.so/ICO-Initial-Coin-Offering-d1f5ad5c27494950a674bf30462488b1?pvs=21).
+    - Ethereum Switzerland GmbH (EthSuisse) began the development of Ethereum software.
+- **July 30, 2015**: Ethereum launched its "Frontier" phase officially, marking the start of the Ethereum blockchain's operation.
+- **2016**:
+    - **March**: The "Homestead" was released as Ethereum’s first major upgrade, enhancing the platform's security and stability.
+    - **June**: The infamous "DAO Attack" happened, leading to a community split. The original chain continued as Ethereum Classic.
+- **2017**: Ethereum released the "Byzantium" and "Constantinople" upgrades, part of the "Metropolis" phase, aimed at further improving the network's privacy, security, and efficiency.
+- **December 2020**: The "Beacon Chain" of Ethereum 2.0 was launched, marking the beginning of the transition to a Proof-of-Stake (PoS) mechanism, a key step in reducing energy consumption and increasing transaction throughput for the Ethereum network.
+- **September 15, 2022**: "The Merge" was completed, officially transitioning Ethereum from a Proof-of-Work (PoW) consensus mechanism to a Proof-of-Stake (PoS), significantly reducing the network's energy consumption.
+- **2023**: The Shapella (Shanghai + Capella) upgrade further optimized network functionality, notably introducing the staking withdrawal feature, allowing stakers to withdraw their staking rewards.
+- **2024**:
+    - **Spot ETF Application Discussion**: On January 10, 2024, the U.S. Securities and Exchange Commission (SEC) approved the listing of a Bitcoin spot ETF, a significant milestone in cryptocurrency history, paving the way for the approval of other cryptocurrency ETFs. Although the SEC postponed the decision on Ethereum spot ETF applications from companies like BlackRock and Fidelity, it also sparked optimistic expectations for Ethereum's future development.
+    - **Cancun Upgrade Plan**: The Cancun upgrade, as an important update to Ethereum, is expected to further enhance the network's performance and scalability.
